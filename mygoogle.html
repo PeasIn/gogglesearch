@@ -3,26 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>goglle</title>
+    <title>gulugulu</title>
     <style>
         *{
+            font-family: Arial, Helvetica, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        body{
-            font-family: Arial, Helvetica, sans-serif;
+        header{
+            /* background-color: salmon; */
+            padding: 30px;
+        }
+        header nav{
+            display: flex;
+            align-items: center;
+            float: right;
+            width: fit-content;
+        }
+        header nav a{
+            font-size: 18pt;
+            text-decoration: none;
+            color: black;
+            margin-left: 30px;
+        }
+        a.profilepicture img{
+            height: 60px;
+            width: 60px;
+            border-radius: 30px;
+            object-fit: cover;
         }
         h1{
             font-size: 60px;
             margin-bottom: 10px;
             text-align: center;
-            margin-top: 200px;
+            margin-top: 150px;
         }
         form{
             width: 800px;
             text-align: center;
-            margin: 0px auto;
+            margin: auto auto;
         }
         form div{
             display: inline-block;
@@ -36,24 +56,31 @@
             outline: none;
         }
         form input[type=submit]{
-            height: 36px;
-            width: 36px;
             border-radius: 18px;
-            background-color: magenta;
+            background: none;
             border: none;
             cursor: pointer;
         }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="https://mail.google.com" target="_blank">gaymail</a>
+            <a href="https://www.google.com/imghp" target="_blank">imageays</a>
+            <a href="https://labs.google.com" target="_blank" class="icon">🧪</a>
+            <a href="" class="icon">📦</a>
+            <a href="https://www.amistech.com/msc/kuvat/cock.gif" target="_blank" class="profilepicture"><img src="https://www.amistech.com/msc/kuvat/cock.gif"></a>
+        </nav>
+        <section style="clear: right;"></section>
+    </header>
     <h1><span style="color: aquamarine;">g</span><span style="color: magenta;">o</span>glle</h1>
     <form action="https://www.google.com/search" target="_blank">
         <div>
             <span class="iconsearch">🤑</span>
-            <input type="text" name="q" id="" placeholder="search ur mom here">
+            <input type="text" name="q" id="" placeholder="search mamamia here">
+            <input type="submit" value="👲">
         </div>
-        <input type="submit" value="👲">
     </form>
-    <img src="https://www.amistech.com/msc/kuvat/cock.gif" alt="chiken" style="margin-left: 500px; width: 178px; height: 156px;">
 </body>
 </html>
